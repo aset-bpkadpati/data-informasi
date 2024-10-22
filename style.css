@@ -34,7 +34,20 @@ body {
 
 .logo {
     width: 100px;
-    height: auto;      
+    height: auto;
+}
+
+/* Responsif untuk layar kecil (misalnya, HP) */
+@media (max-width: 768px) {
+    .logo {
+        width: 70px; /* Ukuran lebih kecil untuk layar kecil */
+    }
+}
+
+@media (max-width: 480px) {
+    .logo {
+        width: 50px; /* Ukuran lebih kecil untuk layar HP yang lebih kecil */
+    }
 }
 
 /* Heading */
